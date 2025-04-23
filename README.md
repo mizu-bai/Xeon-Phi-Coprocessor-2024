@@ -27,3 +27,7 @@ Softwares to be installed:
 1. MPSS 3.8.6
 2. Intel Parallel Studio XE 2017
 3. OpenCL Runtime 14.2
+
+### MPSS
+
+**Remember to run `micctrl --initdefaults` before `systemctl start mpss.service`!!!** (Ref: https://community.intel.com/t5/Software-Archive/Xeon-Phi-3120A-boot-aborted-no-configuration-file-present/td-p/1151886)
